@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { WelcomeCard } from './welcome_card/welcome_card.component';
 
 @Component({
   selector: 'app-root',
