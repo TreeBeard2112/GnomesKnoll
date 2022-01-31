@@ -1,20 +1,21 @@
 import { NgModule } from '@angular/core';
+import { FlexModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { WelcomeCard } from './welcome_card/welcome_card.component';
 
-import { WelcomeModule } from './welcome_card/welcome_card.module';
+import { WelcomeModule } from './welcome/welcome.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    WelcomeModule
+    WelcomeModule,
+    FlexModule
   ],
   providers: [],
   bootstrap: [AppComponent]
