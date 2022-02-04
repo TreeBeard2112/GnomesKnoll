@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body, html {
+    margin: 0%;
+}
+
+.main-text-box {
+    display: flex;
+    background-color: rgb(56, 145, 56);
+    color: rgb(199, 14, 199);
+    border: .66em inset black;
+    justify-content: center;
+    align-items: center;
+}
