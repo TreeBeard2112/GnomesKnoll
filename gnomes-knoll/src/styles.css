@@ -7,7 +7,7 @@ body, html {
     display: flex;
     background-color: rgb(56, 145, 56);
     color: rgb(199, 14, 199);
-    border: .66em inset black;
+    border: .66em black;
     justify-content: center;
     align-items: center;
 }

@@ -6,10 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { WelcomeModule } from './welcome/welcome.module';
+import { StoreComponent } from './store/store/store.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { InfoComponent } from './info/info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    StoreComponent,
+    GalleryComponent,
+    InfoComponent,
   ],
   imports: [
     BrowserModule,
