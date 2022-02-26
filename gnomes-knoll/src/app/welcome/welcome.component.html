@@ -10,13 +10,31 @@
       align-items: center;
       height: 40vh;
     }
-</style> 
 
+    .welcome-card {
+      background-image: url('assets/blue-sky.jpg');
+      background-size: cover;
+      background-color:rgb(56, 145, 56);
+      height: 20vh;
+      text-align: center;
+    }
+</style> 
 <div class="container">
-    <welcome-card></welcome-card>
+    <div class="welcome-card">
+        <h1> Welcome to Gnomes Knoll Services </h1>
+    </div>>
     <div class="mid-section">
-        <gallery-card></gallery-card>
-        <info-card></info-card>
+        <div class="gallery-card">
+            <h1>View Our Work</h1>
+        </div>
+        <div class="info-card">
+            <h1>Learn about us</h1>
+            <button  (click)="infoNav()">Here</button>
+        </div>
     </div>
-    <store-card></store-card>
+    <div class="store-card">
+        <h1>
+            Buy our shit
+        </h1>
+    </div>
 </div>

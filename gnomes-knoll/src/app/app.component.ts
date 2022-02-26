@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { WelcomeComponent } from './welcome/welcome.component';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,5 @@ import { WelcomeComponent } from './welcome/welcome.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'gnomes-knoll';
+  title = 'gnomes-knoll'
 }

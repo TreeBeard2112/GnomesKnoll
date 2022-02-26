@@ -1,0 +1,23 @@
+.Richard {
+    display: flex;
+    height: 75vh;
+    width: 100vw;
+    background-color: red;
+}
+
+.Karen {
+    display: flex;
+    height: 75vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+.written {
+    flex: 50%;
+    background-color: black;
+}
+
+.image {
+    flex: 50%;
+    background-color: purple;
+}

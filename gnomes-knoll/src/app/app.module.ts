@@ -5,10 +5,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { WelcomeModule } from './welcome/welcome.module';
-import { StoreComponent } from './store/store/store.component';
+import { StoreComponent } from './store/store.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { InfoComponent } from './info/info.component';
+import { RouterModule } from '@angular/router';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +17,13 @@ import { InfoComponent } from './info/info.component';
     StoreComponent,
     GalleryComponent,
     InfoComponent,
+    WelcomeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    WelcomeModule,
-    FlexModule
+    FlexModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
-  selector: 'welcome-component',
+  selector: 'app-welcome',
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.css']
 })
-export class WelcomeComponent {
+export class WelcomeComponent implements OnInit {
+
+  constructor(private router: Router ) {}
+
+    infoNav(){
+      this.router.navigateByUrl('/info');
+    }
+
+  ngOnInit(): void {
+  }
+
 }
