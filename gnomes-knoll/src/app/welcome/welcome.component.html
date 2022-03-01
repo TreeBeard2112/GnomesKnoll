@@ -1,4 +1,33 @@
+<!-- 
+    Style is included in html so that background images function
+-->
 <style>
+    .welcome-card {
+      background-image: url('assets/blue-sky.jpg');
+      background-size: cover;
+      background-color:rgb(56, 145, 56);
+      height: 30vh;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .welcome-decorator {
+        display: flex;
+        flex-direction: column;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 666;
+        color: white;
+        -webkit-text-stroke-width: .75px;
+        -webkit-text-stroke-color: black;
+        border-style: outset;
+        border-width: .6em;
+        padding: .4em;
+        border-color: rgb(20, 116, 194);
+        background-color: rgb(12, 94, 201);
+    }
+    
     .mid-section {
       background-image: url('assets/flowers.jpg');
       background-size: cover;
@@ -8,28 +37,71 @@
       background-color:rgb(56, 145, 56);
       justify-content: space-around;
       align-items: center;
-      height: 40vh;
+      height: 60vh;
     }
 
-    .welcome-card {
-      background-image: url('assets/blue-sky.jpg');
+    .mid-decorator {
+        display: flex;
+        flex-direction: column;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 666;
+        -webkit-text-stroke-width: .75px;
+        border-style: outset;
+        border-width: .6em;
+        padding: .4em;
+        color: rgb(187, 14, 187);
+        -webkit-text-stroke-color: rgb(147, 14, 187);
+        border-color: rgb(15, 145, 21);
+        background-color: rgb(12, 109, 17);
+        align-items: center;
+
+    }
+
+    .store-card {
+      background-image: url('assets/dirt.jpg');
       background-size: cover;
       background-color:rgb(56, 145, 56);
-      height: 20vh;
+      height: 30vh;
       text-align: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      color: white;
+      margin: 0em;
+    }
+
+    button {
+       width: 16em;
+       height: 2em;
+       background-color: black;
+       color: white;
+       border-color: black;
+    }
+
+    h1 {
+        margin-top: 0em;
+        margin-bottom: 0em;
     }
 </style> 
+
 <div class="container">
     <div class="welcome-card">
-        <h1> Welcome to Gnomes Knoll Services </h1>
-    </div>>
+        <div class="welcome-decorator">
+            <h1> Welcome to Gnomes Knoll Services </h1>
+        </div>
+    </div>
     <div class="mid-section">
         <div class="gallery-card">
-            <h1>View Our Work</h1>
+            <div class="mid-decorator">
+                <h1>View Our Work</h1>
+                <button  (click)="galleryNav()">Here</button>
+            </div>
         </div>
         <div class="info-card">
-            <h1>Learn about us</h1>
-            <button  (click)="infoNav()">Here</button>
+            <div class="mid-decorator">
+                <h1>Learn about us</h1>
+                <button  (click)="infoNav()">Here</button>
+            </div>
         </div>
     </div>
     <div class="store-card">

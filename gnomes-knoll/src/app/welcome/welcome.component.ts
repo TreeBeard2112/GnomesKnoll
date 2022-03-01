@@ -10,6 +10,10 @@ export class WelcomeComponent implements OnInit {
 
   constructor(private router: Router ) {}
 
+    galleryNav(){
+      this.router.navigateByUrl('/gallery');
+    }
+
     infoNav(){
       this.router.navigateByUrl('/info');
     }
