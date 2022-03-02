@@ -1,28 +1,73 @@
+<style>
+    .heading {
+        height: 10vh;
+        background-color: blue;
+        text-align: center;
+    }
 
-    <div class="InfoComponent">
-        <h1>Info Component</h1>
-    
-        <p>
-            This will be the written portion of the website <br>
-            <br>
-            Will Include several components, will likely be a web page which scrolls, has a picture than descriptions of
-            Richard and then of Karen <br>
-            <br>
+    .Richard {
+        height: 50vh;
+        width: 100%;
+        background-color: green;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .richard-info {
+        width: 50vw;
+    }
+
+    .Karen {
+        height: 50vh;
+        width: 100%;
+        background-color: purple;
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    h1 {
+        margin: 0%;
+    }
+</style>
+<div class="heading">
+    <h1>About Us</h1>
+</div>
+<div class="intro-paragraph">
+    <p>
+        Gnomes Knoll Farms and Services is a full service landscaping and flower company <br>
+        <br>
+        We specialize in transformning drab squares of brown withered grass and lifeless earth into
+        beautiful mosiacs of vibrant plant life. <br>
+        <br>
+        These mosiacs are crafted through our personalized partnership with artisinal flowers, shrubs, hedges, ivy, anything which
+        helps transform your space from where you live to where you feel alive <br>
+        <br>
+        Though the effects on your property are often drastic, all our work is organized planned and for the large part 
+        executed by but two humble Gnomes. <br>
+    </p>
+</div>
+<div class="heading">
+    <h2>Meet Richard and Karen</h2>
+</div>
+<div class="Richard">
+    <img src="assets/richard.jpg" alt="Richard the Gnome">
+    <div class="richard-info">
+        <p> 
+            The hands and back behind much of the work we do, Richard is a real life Santa-Claus
         </p>
-        <div class="Richard">
-            <div class="written">
-    
-            </div>
-            <div class="image">
-    
-            </div>
-        </div>
-        <div class="Karen">
-            <div class="written">
-    
-            </div>
-            <div class="image">
-    
-            </div>
-        </div>
-    </div>  
+    </div>
+</div>
+<div class="Karen">
+    <div class="karen-info">
+        <p>
+            Our resident flower girl and the heart of the gnoll, Karen is an artist who paints landscapes with 
+            pastels of flowers
+        </p>
+    </div>
+    <img src="assets/karen.jpg" alt="Karen the Gnome">
+</div>
