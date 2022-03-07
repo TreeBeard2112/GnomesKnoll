@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { FlexModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +9,8 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { InfoComponent } from './info/info.component';
 import { RouterModule } from '@angular/router';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { CommonModule } from '@angular/common';
+import { FlexModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
     BrowserModule,
     AppRoutingModule,
     FlexModule,
-    RouterModule
+    RouterModule,
+    CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
