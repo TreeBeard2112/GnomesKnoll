@@ -27,14 +27,14 @@
     }
     
     .mid-section {
-      background-image: url('assets/flowers.jpg');
+      background-image: url('assets/farm.jpeg');
       background-size: cover;
       background-repeat: no-repeat;
       display: flex;
       flex-direction: row;
       background-color:rgb(56, 145, 56);
       justify-content: space-around;
-      align-items: center;
+      align-items: flex-end;
       height: 60vh;
     }
 
@@ -44,15 +44,9 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 666;
         -webkit-text-stroke-width: .75px;
-        border-style: outset;
-        border-width: .6em;
         padding: .4em;
-        color: rgb(187, 14, 187);
         -webkit-text-stroke-color: rgb(147, 14, 187);
-        border-color: rgb(15, 145, 21);
-        background-color: rgb(12, 109, 17);
         align-items: center;
-
     }
 
     .store-card {
@@ -91,14 +85,12 @@
     <div class="mid-section">
         <div class="gallery-card">
             <div class="mid-decorator">
-                <h1>View Our Work</h1>
-                <button  (click)="galleryNav()">Here</button>
+                <button  (click)="galleryNav()">View Our Work</button>
             </div>
         </div>
         <div class="info-card">
             <div class="mid-decorator">
-                <h1>Learn about us</h1>
-                <button  (click)="infoNav()">Here</button>
+                <button  (click)="infoNav()">Meet the Gnomes</button>
             </div>
         </div>
     </div>

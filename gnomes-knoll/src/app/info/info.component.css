@@ -1,0 +1,4 @@
+.gnomes {
+    display: flex;
+    flex-direction: column;
+}

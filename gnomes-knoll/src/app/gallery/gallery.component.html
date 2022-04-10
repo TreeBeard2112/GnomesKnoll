@@ -1,7 +1,33 @@
+<style>
+    .button-container {
+        background-image: url('assets/dirt.jpg');
+    }
+
+    .heading {
+        background-image: url('assets/blue-sky.jpg');
+    }
+
+    .image-container {
+        background-image: url('assets/mamakitty.jpeg');
+        background-size: cover;
+    }
+</style>
+
 <div class="heading">
     <h1>Our Existing Work</h1>
 </div>
-<div class="image-container">
-    <img src="assets/{{images[index]}}" alt="Our Work">
+<div class="gallery-container">
+    <div class="barn-container">
+        <img src="assets/barnleft.jpeg" class="barn-image">
+    </div>
+    <div class="image-container">
+        <img src="assets/{{images[index]}}" class="image-gallery">
+    </div>
+    <div class="barn-container">
+        <img src="assets/barnright.jpeg" class="barn-image">
+    </div>
 </div>
-<button (click)="nextImage()">Next Image</button>
+<div class="button-container">
+    <button (click)="nextImage()">Next Image</button>
+</div>
+

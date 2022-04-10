@@ -17,8 +17,37 @@
     background-color: rgb(12, 94, 201);
 }
 
-.image-container {
-    width: 600px;
-    height: 600px;
+.gallery-container {
     display: flex;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 61, 8);
+}
+
+.barn-image {
+    width: 20vw;
+    height: 75vh;
+    filter: brightness(69%);
+}
+
+.image-gallery {
+    width: 60vw;
+    height: 75vh;
+    object-fit: cover;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 33vw;
+    height: 7vh;
+    margin-top: 3vh;
 }

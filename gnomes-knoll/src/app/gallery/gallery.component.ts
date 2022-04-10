@@ -9,11 +9,17 @@ import { CommonModule } from '@angular/common';
 export class GalleryComponent implements OnInit {
 
   images = [
-    "blue-sky.jpg",
-    "dirt.jpg",
-    "flowers.jpg",
-    "karen.jpg",
-    "richard.jpg"
+    "flower1.jpeg",
+    "flower2.jpeg",
+    "flower3.jpeg",
+    "flower4.jpeg",
+    "flower5.jpeg",
+    "flower6.jpeg",
+    "flower7.jpeg",
+    "flower8.jpeg",
+    "flower9.jpeg",
+    "flower10.jpeg",
+    "flower11.jpeg"
   ]
 
   index = 0;
@@ -24,7 +30,7 @@ export class GalleryComponent implements OnInit {
   }
 
   nextImage(): void {
-    if (this.index < this.images.length - 1) { this.index++;}
+    if (this.index < this.images.length) { this.index++;}
     else {this.index = 0;}
     
   }
