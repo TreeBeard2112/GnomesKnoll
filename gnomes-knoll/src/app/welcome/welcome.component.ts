@@ -18,6 +18,10 @@ export class WelcomeComponent implements OnInit {
       this.router.navigateByUrl('/info');
     }
 
+    storeNav(){
+      this.router.navigateByUrl('/store');
+    }
+
   ngOnInit(): void {
   }
 
