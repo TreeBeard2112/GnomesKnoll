@@ -1,0 +1,33 @@
+.heading {
+    height: 10vh;
+    background-color: blue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 666;
+    color: white;
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
+    border-style: outset;
+    border-width: .6em;
+    padding: .4em;
+    border-color: rgb(20, 116, 194);
+    background-color: rgb(12, 94, 201);
+}
+
+.store-container {
+    display: flex;
+}
+
+.stone-image {
+    width: 17vw;
+    height: 90vh;
+    filter: brightness(69%);
+}
+
+.store {
+    width: 66vw;
+    background-color: grey;
+}
