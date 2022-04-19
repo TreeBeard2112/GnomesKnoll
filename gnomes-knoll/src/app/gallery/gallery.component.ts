@@ -19,7 +19,16 @@ export class GalleryComponent implements OnInit {
     "flower8.jpeg",
     "flower9.jpeg",
     "flower10.jpeg",
-    "flower11.jpeg"
+    "flower11.jpeg",
+    "flower12.jpeg",
+    "flower13.jpeg",
+    "stone1.jpg",
+    "stone2.jpg",
+    "stone3.jpg",
+    "stone4.jpg",
+    "stone5.jpg",
+    "stone6.jpg",
+    "stone7.jpg"
   ]
 
   index = 0;

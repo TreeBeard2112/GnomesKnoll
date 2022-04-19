@@ -30,4 +30,22 @@
 .store {
     width: 66vw;
     background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 18vw;
+    height: 40vh;
+    object-fit: cover;
+    background-color: black;
+    position: relative;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: white;
+    line-height:4em;
+    -webkit-box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px black;
 }
